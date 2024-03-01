@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/Header_Menu.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="page">
+        <!-- start menu -->
+        <aside class="menu">
+            <ul class="logo">
+                <li>
+                    <a href="index.html"><img src="images/logo 3.png" alt=""></a>
+                    <hr>
+                </li>
+            </ul>
+            <ul class="links">
+                <li class="active">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <a href="index.html">Dashboard</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="setting.html">Setting</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <a href="index.html">Courses</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <a href="index.html">Assignment</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-credit-card"></i>
+                    <a href="index.html">Plans</a>
+                </li>
+            </ul>
+        </aside>
+        <!-- end menu -->
+        <!-- start page content -->
+        <div class="content">
+            <!-- start header -->
+            <div class="Allcontainer">
+            <header class="d-flex">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="icons">
+                    <a href="index.html"> 
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                    <a href="profile.html" class="you">
+                        <img src="images/user.png" alt="profile.png">
+                    </a>
+                </div>
+            </header>
+            </div>
+            <!-- end header --> 
+            <!-- start hello -->
+            <div class="Allcontainer">
+            <section class="hello d-flex">
+                <h1><span>Hey</span> John,</h1>
+                <div class="date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>sat 30-10-2022</span>
+                </div>
+            </section>
+            </div>
+            <!-- end hello -->
+            <section class="row-one">
+                <div class="details">
+                    <!-- start progress -->
+                    <div class="Allcontainer">
+                    <div class="progress">
+                        <div class="title">
+                            <h3>In-Progress Courses</h3>
+                        </div>
+                        <div class="progress-box">
+                            <div class="container">
+                                    <img src="images/enroll5.jpg" alt="course.jpg">
+                                    <div class="pro-content">
+                                        <p>Company</p>
+                                        <h3>Ux Design</h3>
+                                        <div class="prec d-flex">
+                                            <div class="course-progress">
+                                                <span data-width="50%"></span>
+                                            </div>
+                                            <span class="num"></span>
+                                        </div>
+                                        <p>Overoll Progress</p>
+                                    </div>
+                                </div>
+                            <div class="container">
+                                <img src="images/enroll6.jpg" alt="course.jpg">
+                                <div class="pro-content">
+                                    <p>Company</p>
+                                    <h3>Ux Design</h3>
+                                    <div class="prec d-flex">
+                                        <div class="course-progress">
+                                            <span data-width="80%"></span>
+                                        </div>
+                                        <span class="num"></span>
+                                    </div>
+                                    <p>Overoll Progress</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <img src="images/enroll3.jpg" alt="course.jpg">
+                                <div class="pro-content">
+                                    <p>Company</p>
+                                    <h3>Ux Design</h3>
+                                    <div class="prec d-flex">
+                                        <div class="course-progress">
+                                            <span data-width="20%"></span>
+                                        </div>
+                                        <span class="num"></span>
+                                    </div>
+                                    <p>Overoll Progress</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end progress -->    
+                    <!-- start courses categories -->
+                    <div class="Allcontainer">
+                    <div class="courses-categories d-flex">
+                        <h3>My courses</h3>
+                        <ul class="courses-type d-flex">
+                            <li id="All" class="active">All Courses</li>
+                            <li id="enroll">Enrolled</li>
+                            <li id="watchlater">WatchLater</li>
+                            <li id="view">Viewed</li>
+                            <li id="recommend">Recommended</li>
+                        </ul>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    </div>
+                    <!-- end courses categories -->
+                    <!-- start courses -->
+                    <div class="Allcontainer">
+                    <div class="courses">
+                    </div>
+                    </div>
+                    <!-- end courses -->
+                    <!-- start last -->
+                    <div class="Allcontainer">
+                    <div class="last-container">
+                        <div class="container">
+                            <div class="title">
+                                <h3>Top Search Items</h3>
+                            </div>
+                            <div class="subtitle d-flex">
+                                <p>Keyword</p>
+                                <p>Search Count</p>
+                            </div>
+                            <div class="info d-flex">
+                                <p>Programing</p>
+                                <div class="count">
+                                    <p>550</p>
+                                </div>
+                            </div>
+                            <div class="info d-flex">
+                                <p>Programing</p>
+                                <div class="count">
+                                    <p>550</p>
+                                </div>
+                            </div>
+                            <div class="info d-flex">
+                                <p>Programing</p>
+                                <div class="count">
+                                    <p>550</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="title">
+                                <h3>Latest Uploads</h3>
+                            </div>
+                            <div class="data d-flex">
+                                <div class="file">
+                                    <div class="image">
+                                        <img src="images/pdf.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <p>my-file.pdf</p>
+                                        <p class="person">User</p>
+                                    </div>
+                                </div>
+                                <div class="count">
+                                    <p>4.5mb</p>
+                                </div>
+                            </div>
+                            <div class="data d-flex">
+                                <div class="file">
+                                    <div class="image">
+                                        <img src="images/dll.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <p>my-file.dll</p>
+                                        <p class="person">User</p>
+                                    </div>
+                                </div>
+                                <div class="count">
+                                    <p>4.5mb</p>
+                                </div>
+                            </div>
+                            <div class="data d-flex">
+                                <div class="file">
+                                    <div class="image">
+                                        <img src="images/zip.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <p>my-file.zip</p>
+                                        <p class="person">User</p>
+                                    </div>
+                                </div>
+                                <div class="count">
+                                    <p>4.5mb</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="title">
+                                <h3>Last Assignment</h3>
+                            </div>
+                            <div class="data">
+                                <div class="file">
+                                    <div class="image">
+                                        <img src="images/checklist.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <p>my-file.pdf</p>
+                                        <p class="date">19/10/2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="file">
+                                    <div class="image">
+                                        <img src="images/checklist.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <p>my-file.pdf</p>
+                                        <p class="date">15/10/2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="file">
+                                    <div class="image">
+                                        <img src="images/checklist.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <p>my-file.pdf</p>
+                                        <p class="date">5/8/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end last -->
+                </div>
+                <aside class="aside-right">
+                    <!-- start static -->
+                    <div class="Allcontainer">
+                    <div class="static">
+                        <div class="box">
+                            <div class="container">
+                                <h3>24</h3>
+                                <div class="text">
+                                    <p>Courses</p>
+                                    <p>Completed</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <h3>22</h3>
+                                <div class="text">
+                                    <p>Certificates</p>
+                                    <p>Earned</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="container">
+                                <h3>50</h3>
+                                <div class="text">
+                                    <p>Courses</p>
+                                    <p>In Progress</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <h3>34</h3>
+                                <div class="text">
+                                    <p>Courses</p>
+                                    <p>Discussions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end static -->
+                    <!-- start calendar -->
+                    <div class="Allcontainer">
+                    <div  class="calendar">
+                        <h3>Calendar</h3>
+                        <div class="container">
+                        <div class="title">
+                            <p class="current-date">December 2022</p>
+                            <div class="icons">
+                                <span id="prev" class="front"></span>
+                                <span id="next" class="back"></span>
+                            </div>
+                        </div>
+                        <table>
+                            <thead class="date">
+                                <tr class="weeks">
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>sat</th>
+                                </tr>
+                            </thead>
+                            <tbody class="date">
+                                <tr class="days"></tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end calendar -->
+                    <!-- start schedule -->
+                    <div class="Allcontainer">
+                    <div class="schedule">
+                        <h3>Schedule</h3>
+                        <div class="no-data">
+                            There is no schedule this month
+                        </div>
+                        <div class="all-schedule">
+
+                        </div>
+                    </div>
+                    </div>
+                    <!-- end schedule -->
+                </aside>
+            </section>
+        </div>
+        <!-- end page content -->
+    </div>
+    <script src="JS/dashboard.js"></script>
+</body>
+</html>

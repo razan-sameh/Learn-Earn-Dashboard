@@ -1,0 +1,154 @@
+:root {
+    --landcolor : #BDEDFF ;
+    --btncolor : #008080; 
+    --txtcolor : #64a8c1;
+    --asidecolor: #9bd2e7;
+    --graycolor : #8080808a;
+    --groundcolor:#efefef4d;
+    --titlecolor : #48545a;
+}
+.page {
+    display: flex;
+}
+.page .content{
+    margin-left: 200px;
+    flex: 1;
+}
+span{
+    display: block;
+}
+hr{
+    width: 95%;
+    border: 0px;
+    border-top: 1px solid #eee;
+}
+.container{
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+@media (max-width:767px) {
+    .page .content {
+        margin-left: 70px;
+    }
+}
+/* start pictures */
+.pictures{
+    position: relative;
+}
+.background{
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.pro-picture{
+    position: absolute;
+    bottom: -50px;
+    left: 15px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+.pro-picture img{
+    width: 130px;
+    height: 130px;
+}
+/* end pictures  */
+/* start intro */
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.intro .box-intro,
+.intro h2,
+.intro p{
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.intro p,
+.intro span{
+    color: var(--titlecolor);
+}
+.intro .edit button{
+    border: 1px solid var(--txtcolor);
+    background-color: var(--txtcolor);
+    border-radius: 5px;
+    color: white;
+    padding: 13px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.intro .edit button a{
+    color: white;
+}
+/* end intro */
+/* start about */
+.about ,
+.education,
+.skills,
+.contact{
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.about p {
+    line-height: 1.3;
+}
+/* end about */
+/* start education */
+.education h3,
+.skills h3,
+.contact h3{
+    letter-spacing: 0.4px;
+}
+.education h4{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.education span{
+    margin-bottom: 6px;
+    color: var(--titlecolor);
+}
+/* end education */
+/* start skills */
+.skills .skills-box{
+    padding: 0px;
+    display: flex;
+}
+.skills .skills-box li{
+    margin-right: 10px;
+    background-color: #eee;
+    padding: 8px;
+    width: 53px;
+    text-align: center;
+    border-radius: 30px;
+}
+/* end skills */
+/* start contact */
+.contact .contact-box{
+    display: flex;
+    align-items: baseline;
+    margin-left: 15px;
+}
+.contact .contact-box h4{
+    margin-right: 20px;
+}
+.contact .contact-box .contact-info .url{
+    display: flex;
+    margin-bottom: 8px;
+}
+.contact .contact-box .contact-info .url span{
+    margin-right: 20px;
+}
+.contact .contact-box .contact-info .url a{
+    text-decoration: underline;
+    color: var(--txtcolor);
+}
+/* end contact */

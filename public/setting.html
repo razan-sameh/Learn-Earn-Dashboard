@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/Header_Menu.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Setting</title>
+</head>
+<body>
+    <!-- start menu -->
+    <div class="page">
+        <aside class="menu">
+            <ul class="logo">
+                <li>
+                    <a href="index.html"><img src="images/logo 3.png" alt=""></a>
+                    <hr>
+                </li>
+            </ul>
+            <ul class="links">
+                <li>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <a href="index.html">Dashboard</a>
+                </li>
+                <li class="active">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="setting.html">Setting</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <a href="index.html">Courses</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <a href="index.html">Assignment</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-credit-card"></i>
+                    <a href="index.html">Plans</a>
+                </li>
+            </ul>
+        </aside>
+        <!-- end menu -->
+        <!-- start page content -->
+        <div class="content">
+        <!-- start header -->
+        <div class="Allcontainer">
+        <header class="d-flex">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="icons">
+                <a href="index.html"> 
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+                <a href="profile.html" class="you">
+                    <img src="images/user.png" alt="profile.png">
+                </a>
+            </div>
+        </header>
+        </div>
+        <!-- end header --> 
+        <!-- start contant -->
+        <section class="contant">
+            <!-- start account -->
+            <div class="account">
+                <h2>Account</h2>
+                <div class="container">
+                    <div class="f-name">
+                        <label for="f-name">First Name</label>
+                        <input type="text" id="f-name" placeholder="First Name" disabled>
+                    </div>
+                    <div class="l-name">
+                        <label for="l-name">Last Name</label>
+                        <input type="text" id="l-name" placeholder="Last Name" disabled>
+                    </div>
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Razan@gmail.com" disabled>
+                    </div>
+                    <div class="btn">
+                        <button type="button">Change</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end account -->
+            <!-- start Security -->
+            <div class="security">
+                <h2>Security</h2>
+                <div class="container">
+                    <div class="password">
+                        <p>Password</p>
+                        <span>Last change on <span class="savedate"></span></span>
+                        <div class="btn">
+                            <button type="button">Change</button>
+                        </div>
+                        <div class="change">
+                            <div class="curr-pass">
+                                <label for="curr-pass">Current Passward</label>
+                                <input type="password" id="curr-pass" placeholder="Your current Passward">
+                            </div>
+                            <div class="new-pass">
+                                <label for="new-pass">New password</label>
+                                <input type="password" id="new-pass" placeholder="Must have at least 6 charactar">
+                            </div>
+                            <div class="re-pass">
+                                <label for="re-pass">Retype password</label>
+                                <input type="password" id="re-pass" placeholder="Must be the same as your new password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Verify">
+                        <p>Two Factor Authentication (BETA)</p>
+                        <span>Two-Factor Authentication adds an additional layer of security to your Coursera account. 
+                            Each time you log in to Coursera, you will be asked to enter a unique code that is only available on
+                            your mobile phone. This extra protection ensures that you are the only one who will have access
+                            to your Coursera account and courses.</span>
+                        <div class="btn">
+                            <div class="button">
+                                <span class="statu"></span>
+                                <div class="Check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end Security -->
+            <!-- start controls -->
+            <div class="control">
+                <h2>Widgets Controls</h2>
+                <div class="container">
+                    <div class="srch">
+                        <input type="checkbox" id="srch">
+                        <label for="srch">Top Search Items</label>
+                    </div>
+                    <div class="Up">
+                        <input type="checkbox" id="Up">
+                        <label for="Up">Latest Uploads</label>
+                    </div>
+                    <div class="ass">
+                        <input type="checkbox" id="ass">
+                        <label for="ass">Last Assignment</label>
+                    </div>
+                </div>
+            </div>
+            <!-- end controls -->
+        </section>
+        <!-- end contant -->
+    </div>
+        <script src="JS/setting.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+:root {
+    --landcolor : #BDEDFF ;
+    --btncolor : #008080; 
+    --txtcolor : #64a8c1;
+    --asidecolor: #9bd2e7;
+    --graycolor : #8080808a;
+    --groundcolor:#efefef4d;
+    --titlecolor : #48545a;
+    --checkboxcolor : #4a9dbc;
+}
+.container{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.page {
+    display: flex;
+}
+.page .content{
+    position: relative;
+    margin-left: 200px;
+    flex: 1;
+}
+@media (max-width:767px) {
+    .page .content {
+        margin-left: 70px;
+    }
+}
+/* start contant */
+.contant{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.contant h2{
+    color: var(--txtcolor);
+    margin-left: 10px;
+}
+.contant .container{
+    padding: 20px;
+}
+.contant label{
+    display: block;
+    margin-bottom: 10px;
+}
+.contant input{
+    padding-left: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #808080;
+    width: 100%;
+    height: 30px;
+}
+.contant .btn{
+    display: flex;
+    justify-content: end;
+}
+.contant .btn button{
+    border-radius: 5px;
+    border: 1px solid var(--graycolor);
+    background-color: #eee;
+    color: #808080;
+    padding: 10px;
+    cursor: pointer;
+}
+.contant .btn button.active{
+    border: 1px solid var(--txtcolor);
+    background-color: var(--txtcolor);
+    color: white;
+}
+@media (max-width: 900px){ 
+    .contant {
+        width: 80%;
+    } 
+}
+/* end contant */
+/* start account */
+.account {
+    margin-bottom: 50px;
+}
+.account div:not(:last-child){
+    margin-bottom: 20px;
+}
+/* end account */
+/* start security */
+.security {
+    margin-bottom: 50px;
+}
+.security .password{
+    border-bottom: 1px solid var(--graycolor);
+    padding-bottom: 30px;
+}
+.security .password .change{
+    display: none;
+}
+.security p{
+    margin-bottom: 5px;
+}
+.security span{
+    color: #808080;
+}
+.security .btn{
+    margin-top: 10px;
+}
+.security div:not(:last-child){
+    margin-bottom: 20px;
+}
+.Verify .btn .button{
+    border-radius: 5px;
+    border: 1px solid var(--graycolor);
+    background-color: white;
+    color: #808080;
+    padding: 10px;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Verify .btn .button .Check{
+    width: 60%;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 25px;
+}
+.Verify .btn .button .Check.active{
+    background-color: #64a8c15c;
+}
+.Verify .btn .button .Check i{
+    font-size: large;
+    color: #808080;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Verify .btn .button .Check i.active{
+    color: var(--txtcolor); 
+    left: 25px; 
+}
+/* end security */
+/* srart controls */
+.control {
+    margin-bottom: 50px;
+}
+.control input {
+    width: 18px !important;
+    height: 18px !important;
+    cursor: pointer;
+    accent-color: var(--checkboxcolor);
+}
+.control label {
+    display: inline-block;
+    padding-left: 7px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.control .container div{
+    display: flex;
+    align-items: center;
+}
+.control div:not(:last-child){
+    margin-bottom: 20px;
+}
+/* end controls */

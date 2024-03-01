@@ -1,0 +1,115 @@
+/* start intro */
+.pictures .edit-ground{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--txtcolor);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+.pictures .edit-ground i{
+    margin-top: 6px;
+}
+.pro-picture,
+.background{
+    cursor: pointer;
+}
+/* end intro */
+/* start popup picture */
+.popup-picture,
+.popup-background-picture{
+    display: none;
+    position: fixed;
+    height: fit-content;
+    width: 600px;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1001;
+    color: white;
+    background-color: #1d2226;
+    border-radius: 10px;
+}
+@media (max-width: 575px){
+    .popup-picture,
+    .popup-background-picture{
+        width: 300px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px){  
+    .popup-picture,
+    .popup-background-picture{
+        max-width: 970px;
+    }
+}
+@media (max-width: 768px){  
+    .popup-picture,
+    .popup-background-picture{
+        max-width: 500px;
+    }
+}
+.together{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.popup-picture .header,
+.popup-background-picture .header{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.popup-picture .exit span,
+.popup-background-picture .exit span{
+    font-size: xx-large;
+    font-weight: 300;
+    cursor: pointer;
+}
+.popup-picture .picture img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.popup-picture .footer,
+.popup-background-picture .footer{
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.popup-picture .footer div,
+.popup-background-picture .footer div{
+    text-align: center;
+    cursor: pointer;
+}
+.popup-picture .footer div i,
+.popup-background-picture .footer div i{
+    margin-bottom: 7px;
+    font-size: larger;
+}
+.popup-background-picture{
+    height: 60vh;
+}
+.popup-background-picture img{
+    width: calc(100% - 20%);
+    height: 30vh;
+}
+.popup-picture .footer div input,
+.popup-background-picture .footer div input{
+    display: none;
+}
+.popup-picture .footer div label,
+.popup-background-picture .footer div label{
+    cursor: pointer;
+}
+.popup-picture .footer div label i,
+.popup-background-picture .footer div label i{
+    display: block;
+}
+
+/* end popup picture */
