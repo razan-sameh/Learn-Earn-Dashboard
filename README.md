@@ -10,4 +10,4 @@ Our profile section offers users the chance to personalize their learning experi
 With a commitment to innovation and user satisfaction, the Learn&Earn website dashboard, profile, and settings section strive to redefine the online learning landscape, empowering users to learn, grow, and earn rewards along the way.
 
 ##
-Open demo from [here](https://homepage-template1.firebaseapp.com/)
+Open demo from [here](https://learn-earn-dashboard.web.app/)
